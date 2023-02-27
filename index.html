@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+     <style>
+        #all_countries{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            
+        }
+        .country{
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+        #country_details{
+            margin-bottom: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .body_style{
+            width: 90%;
+            margin: auto;
+        }
+     </style>   
+</head>
+
+
+<body class="body_style">
+
+    <h1  class="text-center py-4 mx-auto" >Click Country Details To Show All Informations </h1>
+
+    <section class="">
+        <div id="country_details">
+
+        </div>
+    </section>
+
+    <section class="row"> 
+        <div id="all_countries" class=" col-sm-2 col-md-2 col-lg-12">
+
+        </div>
+    </section>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
